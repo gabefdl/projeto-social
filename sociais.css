@@ -42,3 +42,22 @@ iframe#home {
     width: 267px;
 
 }
+section#redes-sociais {
+    text-align: right;
+}
+
+#redes-sociais img {
+    margin-top: 10px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.416);
+    box-sizing: border-box;
+}
+
+#redes-sociais img:hover {
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform 0.5s;
+}
